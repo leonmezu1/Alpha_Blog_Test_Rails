@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -23,7 +23,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-=======
+
 # Alpha_Blog-Test-for-Rails
+
 A simple Rails app
->>>>>>> 8fd6e7394339a2393c3e3774f0c83b763a725900
+
+> 8fd6e7394339a2393c3e3774f0c83b763a725900
