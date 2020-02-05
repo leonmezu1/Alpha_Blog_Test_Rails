@@ -5,6 +5,9 @@ AllCops:
     - "Guardfile"
     - "Rakefile"
     - "Gemfile.lock"
+    - "Gemfile"
+    - "app"
+    - "config"
   DisplayCopNames: true
 
 Metrics/MethodLength:
