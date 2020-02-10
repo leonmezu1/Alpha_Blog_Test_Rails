@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   root 'pages#home'
   # get '', to: ''
   get 'about', to: 'pages#about'
-  # get '', to: ''
+	# get '', to: ''
+	
+	resources :articles
 end
