@@ -9,7 +9,7 @@
 </head>
 
 <body>
-	<h1>Create an article</h1>
+	<h1>Edit the existing article</h1>
 	<% if @article.errors.any? %>
   <h2>The following errors are avoiding the article cration</h2>
 		<ul>
@@ -34,8 +34,5 @@
 			<%= f.submit %><br>
 		</p>
 	<% end %>
-
 	<%= link_to 'Back to listing', articles_path %>
 </body>
-
-</html>
