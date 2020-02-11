@@ -10,10 +10,35 @@
     font-weight: bold;
 }
 
+.boldc {
+    font-weight: bold;
+}
+
 .center {
     text-align: center;
 }
 
+.custom-h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 #logo:hover {
     text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    position: fixed;
+    bottom: 0;
+}
+
+footer a:hover {
+    color: #222;
 }
