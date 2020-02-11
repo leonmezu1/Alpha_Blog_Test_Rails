@@ -1,0 +1,15 @@
+/* Custom Styling for my Web APP*/
+
+@import 'bootstrap/dist/css/bootstrap';
+@import "bootstrap/scss/bootstrap";
+#logo {
+    float: left;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    text-decoration: underline;
+}
