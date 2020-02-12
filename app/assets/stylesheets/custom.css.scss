@@ -2,6 +2,15 @@
 
 @import 'bootstrap/dist/css/bootstrap';
 @import "bootstrap/scss/bootstrap";
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
 #logo {
     float: left;
     font-size: 1.7em;
@@ -27,10 +36,6 @@
     text-decoration: underline;
 }
 
-.btns {
-    border-top: 1px solid #eaeaea;
-}
-
 footer {
     height: 50px;
     font-size: 20px;
@@ -39,6 +44,10 @@ footer {
     border-top: 1px solid #eaeaea;
     color: #777;
     bottom: 0;
+}
+
+.btns {
+    border-top: 1px solid #eaeaea;
 }
 
 footer a:hover {
