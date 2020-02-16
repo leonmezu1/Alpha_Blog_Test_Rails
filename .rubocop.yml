@@ -27,7 +27,7 @@ Style/ClassAndModuleChildren:
   Enabled: false
 
 Layout/EndOfLine:
-  EnforcedStyle: lf
+  EnforcedStyle: crlf
 Metrics/LineLength:
   Max: 120
 Layout/ExtraSpacing:
