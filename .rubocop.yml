@@ -25,9 +25,15 @@ Style/Documentation:
   Enabled: false
 Style/ClassAndModuleChildren:
   Enabled: false
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
 
 Layout/EndOfLine:
-  EnforcedStyle: crlf
+  EnforcedStyle: lf
 Layout/LineLength:
   Max: 120
 Layout/ExtraSpacing:
