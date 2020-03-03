@@ -1,12 +1,13 @@
-<h1 align='center'>All blogers</h1>
+<h1 align='left'>Blogers</h1>
 
-<%= @users.each do |user| %>
-<ul class="listing">
-    <div class="row">
-        <div class="card col-md 4 offset-md-4">
-            <li> <%= link_to gravatar_for(user), user_path(user) %></li>
-            <li><small><%= pluralize(user.articles.count, 'article') if user.articles %></small></li>
+<% @users.each do |user| %>
+    <ul class="listing list-unstyled">
+        <div class="row">
+            <div class="card col-md-4 offset-md-4 center">
+                <li class=" mt-4"> <%= link_to gravatar_for(user), user_path(user) %></li>
+                <li class="article-title mt-3"><%= link_to user.username, user_path(user) %></li>
+                <li class="article-title my-3"><small><%= pluralize(user.articles.count, 'article') if user.articles %></small></li>
+            </div>
         </div>
-    </div>
-</ul>
+    </ul>
 <% end %>
